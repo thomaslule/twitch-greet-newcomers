@@ -1,5 +1,5 @@
 if (window.greet_newcomers) {
-  console.log('Alredy showing new viewers');
+  console.log('Already showing new viewers');
   return;
 }
 
