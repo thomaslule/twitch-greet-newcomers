@@ -14,6 +14,8 @@ You can also manually create the bookmark by copy/pasting this into the URL sect
 
 > This is scary, what does this code do? 😨
 
-It just scans the chat to find new viewers and it forgets everything when the tab is closed or refreshed. It doesn't spy on anything. It is only visible to you.
+It just adds a routine to the webpage that marks new viewers in chat. It doesn't spy on anything. It is only visible to you.
 
-You can read the code properly formatted [here](https://github.com/thomaslule/twitch-greet-newcomers/blob/master/greet.js).
+You can read the executed code [here](https://github.com/thomaslule/twitch-greet-newcomers/blob/master/greet.js).
+
+The code is delivered by [jsDelivr](https://www.jsdelivr.com/).
