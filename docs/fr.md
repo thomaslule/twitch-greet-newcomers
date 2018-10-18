@@ -1,4 +1,4 @@
-[English](..) - **Français**
+[English](/) - **Français**
 
 Glissez ce lien dans votre barre de favoris, cliquez dessus quand vous êtes sur votre page twitch:
 
