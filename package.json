@@ -1,0 +1,26 @@
+{
+  "name": "twitch-greet-newcomers",
+  "version": "1.0.0",
+  "description": "a bookmarklet to help you spot newcomers in a twitch chat",
+  "main": "greet.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "bookmarklet greet.js greet.bookmarklet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaslule/twitch-greet-newcomers.git"
+  },
+  "author": "thomaslule",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomaslule/twitch-greet-newcomers/issues"
+  },
+  "homepage": "https://github.com/thomaslule/twitch-greet-newcomers#readme",
+  "devDependencies": {
+    "bookmarklet": "^1.0.2"
+  },
+  "dependencies": {}
+}
