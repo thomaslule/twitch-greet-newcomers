@@ -33,4 +33,4 @@ window.greet_newcomers.observe(chat, { childList: true, attributes: false, chara
 const div = chat.appendChild(window.document.createElement("div"));
 div.setAttribute("class", "chat-line__status");
 const span = div.appendChild(window.document.createElement("span"));
-span.textContent = 'Now showing new viewers! Refresh the page to stop.';
+span.textContent = 'Now showing new viewers! Refresh the page to stop. This message is only visible to you.';
