@@ -40,4 +40,8 @@
     ? 'Affichage des nouveaux viewers ! Rafraichir la page pour arrêter. Ce message est visible uniquement par vous.'
     : 'Now showing new viewers! Refresh the page to stop. This message is only visible to you.';
   span.textContent = text;
+
+  // scroll to message
+  const scrollable = document.querySelector(".chat-list .simplebar-scroll-content");
+  scrollable.scrollTop = scrollable.scrollHeight;
 })();
