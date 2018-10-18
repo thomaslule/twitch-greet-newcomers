@@ -1,4 +1,4 @@
-**English** - [français]({{ 'fr' | absolute_url }})
+**English** - [Français]({{ 'fr' | absolute_url }})
 
 Drag and drop this link to your bookmark bar and click it when you are on your twitch channel page:
 
