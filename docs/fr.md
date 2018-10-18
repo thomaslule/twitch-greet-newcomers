@@ -2,14 +2,14 @@
 
 Glissez ce lien dans votre barre de favoris, cliquez dessus depuis votre page twitch :
 
-**<a href="{% include greet.bookmarklet %}">Greet Newcomers</a>**
+**<a href="{% include greet-newcomers.bookmarklet %}">Greet Newcomers</a>**
 
 Cela vous permettra de repérer les nouveaux arrivants en ajoutant un émoji 👋 sur leur premier message.
 
 Vous pouvez aussi créer le marque-page manuellement en copiant ce code dans le champ URL :
 
 ```
-{% include greet.bookmarklet %}
+{% include greet-newcomers.bookmarklet %}
 ```
 
 > Oula, qu'est-ce que ça fait tout ce code ? 😨

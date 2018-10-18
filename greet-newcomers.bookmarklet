@@ -1,0 +1,1 @@
+javascript:(function()%7B%22use%20strict%22%3Bwindow.document.body.appendChild(window.document.createElement(%22script%22).setAttribute(%22src%22%2C%22https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fthomaslule%2Ftwitch-greet-newcomers%2Fgreet-newcomers.js%22))%3B%7D)()

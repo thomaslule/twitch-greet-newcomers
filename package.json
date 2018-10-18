@@ -2,12 +2,12 @@
   "name": "twitch-greet-newcomers",
   "version": "1.0.0",
   "description": "a bookmarklet to help you spot newcomers in a twitch chat",
-  "main": "greet.js",
+  "main": "greet-newcomers.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "build": "bookmarklet greet.js greet.bookmarklet && bookmarklet greet.js docs/_includes/greet.bookmarklet"
+    "build": "bookmarklet bookmarklet-code.js greet-newcomers.bookmarklet && bookmarklet bookmarklet-code.js docs/_includes/greet-newcomers.bookmarklet"
   },
   "repository": {
     "type": "git",
