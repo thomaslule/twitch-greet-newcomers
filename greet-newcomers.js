@@ -37,8 +37,8 @@
   div.setAttribute('class', 'chat-line__status');
   const span = div.appendChild(window.document.createElement('span'));
   const text = window.navigator.language.replace(/\-.*/, '') === 'fr'
-    ? 'Affichage des nouveaux viewers ! Rafraichir la page pour arrêter. Ce message est visible uniquement par vous.'
-    : 'Now showing new viewers! Refresh the page to stop. This message is only visible to you.';
+    ? 'Affichage des nouveaux viewers 👋 Rafraichir la page pour arrêter. Ce message est visible uniquement par vous.'
+    : 'Now showing new viewers 👋 Refresh the page to stop. This message is only visible to you.';
   span.textContent = text;
 
   // scroll to message
