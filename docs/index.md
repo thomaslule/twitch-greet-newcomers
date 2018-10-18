@@ -16,6 +16,6 @@ You can also manually create the bookmark by copy/pasting this into the URL sect
 
 It just adds a routine to the webpage that marks new viewers in chat. It doesn't spy on anything. It is only visible to you.
 
-You can read the executed code [here](https://github.com/thomaslule/twitch-greet-newcomers/blob/master/greet.js).
+You can read the executed code [here](https://github.com/thomaslule/twitch-greet-newcomers/blob/master/greet-newcomers.js).
 
 The code is delivered by [jsDelivr](https://www.jsdelivr.com/).
