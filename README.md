@@ -1,5 +1,5 @@
 # twitch-greet-newcomers
 
-This is a bookmarklet that adds a 👋 emoji just before the name of viewers who talk for the first time in a twitch chat.
+This is a bookmarklet that helps you spot newcomers in your twitch chat by adding a 👋 emoji on their first message.
 
 To install and use this tool, visit the [project page](https://thomaslule.github.io/twitch-greet-newcomers/).
