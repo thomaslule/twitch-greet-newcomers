@@ -7,7 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "bookmarklet bookmarklet-code.js greet-newcomers.bookmarklet && bookmarklet bookmarklet-code.js docs/_includes/greet-newcomers.bookmarklet"
+    "build": "npm run build-external && npm run build-local && npm run build-docs",
+    "build-external": "bookmarklet bookmarklet-external.js greet-newcomers-external.bookmarklet",
+    "build-local": "bookmarklet greet-newcomers.js greet-newcomers-local.bookmarklet",
+    "build-docs": "bookmarklet bookmarklet-external.js docs/_includes/greet-newcomers.bookmarklet"
   },
   "repository": {
     "type": "git",
