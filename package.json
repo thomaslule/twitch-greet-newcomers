@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "bookmarklet greet.js greet.bookmarklet"
+    "build": "bookmarklet greet.js greet.bookmarklet && bookmarklet greet.js docs/_includes/greet.bookmarklet"
   },
   "repository": {
     "type": "git",
