@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ '/assets/style.css' | absolute_url }}">
+
 **English** - [Français]({{ 'fr' | absolute_url }})
 
 Drag and drop this link to your bookmark bar and click it when you are on your twitch channel page:
@@ -5,6 +7,8 @@ Drag and drop this link to your bookmark bar and click it when you are on your t
 **<a href="{% include greet-newcomers.bookmarklet %}">Greet Newcomers</a>**
 
 This will help you spot newcomers in your chat by adding a 👋 emoji on their first message.
+
+![example screenshot]({{ '/assets/screenshot.png' | absolute_url }})
 
 You can also manually create the bookmark by copy/pasting this into the URL section of a new bookmark:
 
