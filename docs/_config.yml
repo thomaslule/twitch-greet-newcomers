@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Greet Newcomers
-# email: your-email@example.com
+email: thomas@lule.fr
 description: >- # this means to ignore newlines until "baseurl:"
   a bookmarklet to help you spot newcomers in a twitch chat
 baseurl: "/twitch-greet-newcomers" # the subpath of your site, e.g. /blog
