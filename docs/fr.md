@@ -1,10 +1,8 @@
-<link rel="stylesheet" href="{{ '/assets/style.css' | absolute_url }}">
-
 [English]( {{ '/' | absolute_url }} ) - **Français**
 
-Glissez ce lien dans votre barre de favoris, cliquez dessus depuis votre page twitch :
+Glissez ce bouton dans votre barre de favoris, cliquez dessus depuis votre page twitch :
 
-**<a href="{% include greet-newcomers.bookmarklet %}">Greet Newcomers</a>**
+<p class="bookmarklet-button"><a href="{% include greet-newcomers.bookmarklet %}" title="Glissez-moi dans votre barre de favoris">Greet Newcomers</a></p>
 
 Cela vous permettra de repérer les nouveaux arrivants en ajoutant un émoji 👋 sur leur premier message.
 
