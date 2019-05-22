@@ -44,7 +44,11 @@
   });
 
   // display status message in chat
-  const div = chat.appendChild(window.document.createElement("div"));
+  const lastElementOfChat = chat.querySelector(".scrollable-trigger__wrapper");
+  const div = chat.insertBefore(
+    window.document.createElement("div"),
+    lastElementOfChat
+  );
   div.setAttribute("class", "chat-line__status");
   const span = div.appendChild(window.document.createElement("span"));
   const text =
