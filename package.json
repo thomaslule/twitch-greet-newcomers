@@ -1,6 +1,6 @@
 {
   "name": "twitch-greet-newcomers",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a bookmarklet to help you spot newcomers in a twitch chat",
   "main": "greet-newcomers.js",
   "directories": {
