@@ -1,12 +1,12 @@
-(function() {
-  const chat = window.document.querySelector("[role=log]");
+(function () {
+  const chat = window.document.querySelector(".chat-room");
 
   // if greet_newcomers was already launched, disconnect it and remove the eventual emojis from the chat
   if (window.greet_newcomers) {
     window.greet_newcomers.disconnect();
     chat
       .querySelectorAll(".chat-line__message .chat-author__display-name")
-      .forEach(nameNode => {
+      .forEach((nameNode) => {
         nameNode.textContent = nameNode.textContent.replace(/^👋 /, "");
       });
   }
@@ -31,8 +31,8 @@
   chat.querySelectorAll(".chat-line__message").forEach(handleNewMessage);
 
   // observe the chat, process every new message
-  window.greet_newcomers = new MutationObserver(mutationRecords => {
-    mutationRecords.forEach(mr => {
+  window.greet_newcomers = new MutationObserver((mutationRecords) => {
+    mutationRecords.forEach((mr) => {
       mr.addedNodes.forEach(handleNewMessage);
     });
   });
@@ -40,7 +40,7 @@
     childList: true,
     attributes: false,
     characterData: false,
-    subtree: false
+    subtree: false,
   });
 
   // display status message in chat
@@ -58,8 +58,8 @@
   span.textContent = text;
 
   // scroll to message
-  const scrollable = document.querySelector(
-    ".chat-list .simplebar-scroll-content"
+  const scrollable = window.document.querySelector(
+    ".chat-room .simplebar-scroll-content"
   );
   scrollable.scrollTop = scrollable.scrollHeight;
 })();
